@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.general-container .container-fluid {
+    padding-left: 80px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+    /* position:sticky;  */
+}
+
+.container-fluid .collapse .navbar-nav {
+    box-shadow: 0.5px 0.5px 0.5px 2px grey;
+    border-radius: 50px;
+    margin-inline-start: 05px;
+    background: transparent;
+    padding-left: 30px;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    width: 350px;
+    margin-left: 250px;
+}
+
+.container-fluid .collapse .navbar-nav:hover {
+    box-shadow: 1px 1px 1px 3px grey;
+}
+
+.container-fluid .collapse .navbar-nav .week-nav {
+    border-color: rgb(66, 66, 66);
+    /* border-right-style:solid; */
+    border-width: 0.5px;
+}
+
+
+.container-fluid .collapse .navbar-nav .nav-item {
+    border-color: rgb(66, 66, 66);
+    /* border-right-style:solid; */
+    border-width: 0.5px;
+}
+
+.container-fluid .collapse .navbar-nav .button {
+    background-color: #ff385c;
+    border: none;
+    color: white;
+    margin-top: 05px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    margin: 5px 20px;
+}
+
+.button5 {
+    border-radius: 50%;
+}
+
+.container-fluid .collapse .host {
+    background-color: transparent;
+    border: none;
+    color: gray;
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-right: 5px;
+    display: inline;
+    margin: 8px px;
+}
+
+.container-fluid .collapse .host:hover {
+    border-radius: 30%;
+    background-color: rgb(231, 228, 228);
+    border-radius: 25%;
+    width: 150px;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.container-fluid .collapse .button {
+    background-color: transparent;
+    border: none;
+    color: grey;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    margin: 8px 10px;
+}
+
+.container-fluid .collapse .a:link {
+    text-decoration: none;
+    border: 0px;
+}
+
+.container-fluid .collapse .menu-icon {
+    border-radius: 50px;
+    border-width: 0.5px;
+    border-color: rgb(231, 228, 228);
+    border-style: solid;
+    margin-top: 03px;
+    background: transparent;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5pt;
+    padding-right: 05px;
+    transition-duration: 0.4s;
+}
+
+.container-fluid .collapse .menu-icon:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.19);
+}
+
+.container-fluid .collapse .menu-icon .btn-profile {
+    margin-right: 05px;
+    border: none;
+    background-color: transparent;
+}
+
+.container-fluid .collapse .menu-icon .btn-menu {
+    margin-left: 05px;
+    border: none;
+    background-color: transparent;
+}
+
+.container-carousel .d-flex .flex-2 a {
+    border-radius: 12px;
+    border-width: 0.5px;
+    border-color: rgb(231, 228, 228);
+    border-style: solid;
+    margin-top: 0px;
+    background: transparent;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.footer {
+    width: 100%;
+    height: 4vh;
+    background-color: rgb(5, 143, 217);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-weight: bolder;
+    position: relative;
+    font-size: 1em;
+}
+
+.footer div p {
+    margin-top: 20px;
+}
+
+.footer div p a {
+    color: white;
+}
+
+.footer div p a:hover {
+    color: rgb(253, 224, 93);
+    transform: scale(1.2);
+    text-transform: uppercase;
+}
